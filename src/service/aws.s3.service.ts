@@ -9,10 +9,8 @@ import * as AWS from 'aws-sdk';
 import {
     CopyObjectRequest,
     DeleteObjectRequest,
-    ListObjectsOutput,
     ListObjectsRequest,
 } from 'aws-sdk/clients/s3';
-import { exception } from 'console';
 
 import { CONFIG_CONNECTION_OPTIONS } from '../constants';
 import { IGetSignedUrlRequest } from '../interfaces/s3-get-signed-url-request.interface';
